@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICE & CUBES</title>
+    <link rel="shortcut icon" type="image/jpg" href="/images/logo.png"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Open+Sans:wght@400;600;700&family=Overpass+Mono:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/animation.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav class="menu-bar">
+        <img src="/images/logo.png" width="50">
+        <ul>
+            <li><a onclick="scrollfunction('solutions')" class="first">Products & Services</a></li>
+            <li><a onclick="scrollfunction('contact-us')" class="second">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="landing-area">
+        <div class="custom-shape-divider-bottom-1631627611">
+            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+            </svg>
+        </div>
+        <div class="site" >
+            <h1 class="title">ICE AND CUBES SOLUTIONS LIMITED</h1>
+        </div>
+        <div class="site">
+            <h3 class="desc">Dexterity is our Hallmark</h3>
+        </div>
+        <div class="scroller" onclick="scrollfunction('about-us')">
+            <p><i class="arrow down" id="down"></i></p>
+        </div>
+    </div>
+
+    <div class="about-us" id="about-us">
+        <div class="container">
+            <h2>About Us</h2>
+            <p>
+                Ice and cubes solutions is one of the leading ICT service providers in Kenya. 
+                It’s duly registered and has been in operation since 2016 as a business. It 
+                has had a tremendous growth that can be attributed to a strong team that includes 
+                a pool of experienced technical staff, hands-on management and good customer relations. 
+                The company’s client base has grown exponentially with an indelible footprint.
+            </p>
+            <div class="row">
+                    <div class="col-md-6" id="vision">
+                        <h4>Vision</h4>
+                        <p>To be the leaders in service provision in the ICT sector in Africa</p>
+                    </div>
+                    <div class="col-md-6" id="mission">
+                        <h4>Mission</h4>
+                        <p>To offer quality and affordable Solutions that satisfies market needs</p>
+                    </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <hr>
+    </div>
+    <div class="solutions" id="solutions">
+        <div class="container">
+            <h2>Solutions</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_one()">
+                        <h4>Computer Hardware & Software Solutions</h4>
+                        <div class="hidden" id="hidden-one">
+                            <ul>
+                                <li>Sales of branded computes systems,servers,Scannersand accessories at competitive market prices</li>
+                                <li>Repair and maintenance of Computers,servers,printers,point of sales,laptops,tablets and all other ITC based systems</li>
+                                <li>Sales of software e.g Microsoft office, Antivirus etc</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_two()">
+                        <h4>Electrical Power Solutions</h4>
+                        <div class="hidden" id="hidden-two">
+                            <ul>
+                                <li>Inverter and UPS power Installation</li>
+                                <li>Generator servicing</li>
+                                <li>Clean and raw power socket wiring</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_three()">
+                        <h4>Surveillance and Security systems</h4>
+                        <div class="hidden" id="hidden-three">
+                            <ul>
+                                <li>Ip based and analog surveillance systems</li>
+                                <li>Access control and Alarm systems</li>
+                                <li>Preventive and corrective maintenance for surveillance and security systems</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_four()">
+                        <h4>Networking and Infastructure</h4>
+                        <div class="hidden" id="hidden-four">
+                            <ul>
+                                <li>Design , Setup and Integrate Local Area Networks (LANs), Wide Area Networks (WANs)</li>
+                                <li>Setup Wireless LANs (WiFi)</li>
+                                <li>Design and setup data center infrastructure i.e. cable pathways ; cable trays, trunking, manholes</li>
+                                <li>Network trouble shooting and repairs</li>
+                                <li>Network Security solutions</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_five()">
+                        <h4>Telecommunication Solutions</h4>
+                        <div class="hidden" id="hidden-five">
+                            <ul>
+                                <li>Setup of IP Based, analog and digital PBXs systems</li>
+                                <li>Setup Intercom systems for residential and business Premises</li>
+                                <li>Telecommunication wiring</li>
+                                <li>VSAT for internet connectivity in remote areas</li>
+                                <li>Decommissioning BTS systems</li>
+                                <li>Supply Of telecommunication equipment</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="solution-card" onclick="solution_six()">
+                        <h4>Fiber Optic Solutions</h4>
+                        <div class="hidden" id="hidden-six">
+                            <ul>
+                                <li>Design,Setup and Integrate fiber networks</li>
+                                <li>Fiber splicing services ( Orientek T40 Splicer which is an equivalent to Fujikura s60)</li>
+                                <li>Fiber  cable Repair and troubleshooting</li>
+                            </ul>
+                        </div>
+                        <p><i class="arrow down"></i></p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container"><hr></div>
+    
+    <div class="clients">
+        <div class="container">
+            <h2>Clients</h2>
+                <div class="img-container" id="img-container">
+                    <img src="images/logos/anti-fgm.jpg" alt="" class="client-image">
+                    <img src="images/logos/ciheb.png" alt="" class="client-image">
+                    <img src="images/logos/icrc.png" alt="" class="client-image">
+                    <img src="images/logos/kimc.png" alt="" class="client-image">
+                    <img src="images/logos/Mesora.jpg" alt="" class="client-image">
+                    <img src="images/logos/mgic.png" alt="" class="client-image">
+                    <img src="images/logos/ministry.jpg" alt="" class="client-image">
+                    <img src="images/logos/nawassco.png" alt="" class="client-image">
+                    <img src="images/logos/nrb-club.png" alt="" class="client-image">
+                    <img src="images/logos/uon.jpg" alt="" class="client-image">
+                    <img src="images/logos/wananchi.jpeg" alt="" class="client-image">
+                    <img src="images/logos/wiocc.jpg" alt="" class="client-image">
+                </div>
+                <!--Carousel slider of the logos of the company they have worked with-->
+        </div>
+    </div>
+
+    <div class="contact-us" id="contact-us">
+        <div class="slope"></div>
+        <div class="container">
+            <h2>Contact Us</h2>
+            <h3>Ice and Cubes Solutions</h3>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Find us at : &nbsp;Nacico Co-op Plaza ,7th Floor Suite 700, Landhies Rd</p>
+                    <p>Box Address : &nbsp;P.O Box 101663 00101</p>
+                    <p>Nairobi</p>
+                </div>
+                <div class="col-md-6">
+                    <h5>Telephone</h5>
+                        <ul>
+                            <li>+2540718682903</li>
+                            <li>+254 721671564</li>
+                            <li>+254 733835933</li>
+                        </ul>
+
+                    <h5>Email</h5>
+                    <ul>
+                        <li>iceandcubesltd@gmail.com</li>
+                        <li>sales@iceandcubessolution.co.ke</li>
+                        <li>info@iceandcubessolution.co.ke</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <h5>Copyrights&copy; reserved by ICE & CUBES SOLUTIONS LIMITED</h5>
+    </footer>
+
+    <script src="js/script.js"></script>
+    
+</body>
+</html>

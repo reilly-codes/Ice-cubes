@@ -1,0 +1,91 @@
+#down {
+  -webkit-animation: color-change 2s infinite;
+          animation: color-change 2s infinite;
+}
+
+@-webkit-keyframes color-change {
+  0% {
+    border-color: #43dce7;
+    border-width: 0 4px 4px 0;
+    padding: 7.5px;
+  }
+  100% {
+    border-color: #ee711d;
+  }
+}
+
+@keyframes color-change {
+  0% {
+    border-color: #43dce7;
+    border-width: 0 4px 4px 0;
+    padding: 7.5px;
+  }
+  100% {
+    border-color: #ee711d;
+  }
+}
+
+#img-container {
+  -webkit-animation: moving 20s infinite;
+          animation: moving 20s infinite;
+  -webkit-transition: 3s;
+  transition: 3s;
+}
+
+@-webkit-keyframes moving {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes moving {
+  0% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-100%);
+            transform: translateX(-100%);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.solution-card:hover {
+  -webkit-animation: flipper 1.5s;
+          animation: flipper 1.5s;
+}
+
+@-webkit-keyframes flipper {
+  0% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+
+@keyframes flipper {
+  0% {
+    -webkit-transform: rotateX(180deg);
+            transform: rotateX(180deg);
+  }
+  100% {
+    -webkit-transform: rotateX(0deg);
+            transform: rotateX(0deg);
+  }
+}
+/*# sourceMappingURL=animation.css.map */
